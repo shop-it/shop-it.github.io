@@ -172,11 +172,11 @@ button:active {
 video#dreemovid {
   background-attachment: fixed;
   position: relative;
-  right: 0; 
+  right: 0;
   bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-	width: auto; height: auto; 
+	width: auto; height: auto;
 	background-size: cover;
 }
 
@@ -377,6 +377,12 @@ section h3 {
 
 #logo-nav-bar {
 	visibility: hidden;
+  height: 250%;
+  margin-top: -10px;
+}
+
+#background {
+  width: 100%;
 }
 
 @media (max-width: 1199px) {
@@ -400,7 +406,7 @@ section h3 {
   	height:400px;
   }
 
-  .mobile3 { 
+  .mobile3 {
   	margin-left: -25px;
   	margin-top: 20px;
   	width:335px;
