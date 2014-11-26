@@ -381,14 +381,14 @@ section h3 {
   margin-top: -10px;
 }
 
-#logo-container {
-  margin-top: 5px;
-}
-
 #background {
   width: 100%;
   z-index:1;
   position: absolute;
+}
+
+#scroll {
+  z-index: 2;
 }
 
 #video-container {
@@ -398,7 +398,7 @@ section h3 {
   position: relative;
   width: 640px;
   z-index: 2;
-};
+}
 
 @media (max-width: 1199px) {
   #home .carousel-caption-center {
