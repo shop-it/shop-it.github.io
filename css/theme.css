@@ -387,13 +387,21 @@ section h3 {
   position: absolute;
 }
 
+#email-contact {
+  margin-top: 10px;
+}
+
+#button-header {
+  margin: 1% 85%;
+}
+
 #scroll {
   z-index: 2;
 }
 
 #video-container {
   height: 100%;
-  margin: 175px 300px;
+  margin: 14% 23%;
   padding: 0px;
   position: relative;
   width: 640px;
@@ -556,7 +564,6 @@ footer {
 }
 
 .wrapper-footer {
-  margin-top: 10px;
   margin-right: 20px;
   margin-left: 20px;
 }
@@ -566,7 +573,7 @@ footer {
 }
 
 .social-media a {
-  color: white;
+  color: black;
   margin-right: 30px;
 }
 
