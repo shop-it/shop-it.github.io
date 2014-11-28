@@ -375,6 +375,11 @@ section h3 {
     z-index: -1;
 }
 
+
+.description {
+  height: 40px;
+}
+
 #logo-nav-bar {
 	visibility: hidden;
   height: 250%;
@@ -423,18 +428,12 @@ section h3 {
     padding: 0;
   }
 
-  .mobile1, .mobile2 {
+  .mobile1, .mobile2, .mobile3 {
   	margin-left: -25px;
   	width:335px;
   	height:400px;
   }
 
-  .mobile3 {
-  	margin-left: -25px;
-  	margin-top: 20px;
-  	width:335px;
-  	height:400px;
-  }
 }
 
 @media (max-width: 991px) {
@@ -447,7 +446,12 @@ section h3 {
 }
 
 /* NAVBAR COLLAPSE */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+
+  #video-container {
+    margin: 15% 8%;
+  }
+
   .mobile1, .mobile2, .mobile3 {
     margin-top: -30px;
     margin-bottom: 30px;
