@@ -317,15 +317,15 @@ video#dreemovid {
   width: 100%;
   z-index: 200;
   height: 100px;
-  transition: all .1s linear;
-  -moz-transition: all .1s linear; /* Firefox 4 */
-  -webkit-transition: all .1s linear; /* Safari and Chrome */
-  -o-transition: all .1s linear; /* Opera */
+  transition: all 180ms linear;
+  -moz-transition: all 180ms linear; /* Firefox 4 */
+  -webkit-transition: all 180ms linear; /* Safari and Chrome */
+  -o-transition: all 180ms linear; /* Opera */
 }
 
 /* NAVBAR FONT SIZE AND COLOR*/
 .cbp-af-header .nav a {
-  color: white;
+  color: transparent;
   margin: 0 0 0 20px;
   font-size: 15px;
 }
@@ -338,12 +338,12 @@ video#dreemovid {
 /* NAVBAR TRANSITION ANIMATION */
 .cbp-af-header.cbp-af-header-shrink {
   height: 55px;
-  background-color: white;
+  background-color: rgba(255,255,255,0.9);
   border-bottom: 1px solid #eee;
-  transition: opacity .4s linear .6s;
-  -moz-transition: opacity .4s linear .6s; /* Firefox 4 */
-  -webkit-transition: opacity .4s linear .6s; /* Safari and Chrome */
-  -o-transition: opacity .4s linear .6s; /* Opera */
+  transition: all 180ms linear;
+  -moz-transition: all 180ms linear; /* Firefox 4 */
+  -webkit-transition: all 180ms linear; /* Safari and Chrome */
+  -o-transition: all 180ms linear; /* Opera */
 }
 
 .cbp-af-header.cbp-af-header-shrink .dropdown-menu {
