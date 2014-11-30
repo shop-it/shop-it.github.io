@@ -13,6 +13,17 @@ $(document).ready(function () {
 		});
 	});
 
+	$(document).on('scroll', function(){
+		console.log($(document).scrollTop())
+		if($(document).scrollTop()>=400){
+			$("#logo").removeClass("large").addClass("small");
+			$("#logo-type").addClass("scrolled");
+		} else{
+			$("#logo").removeClass("small").addClass("large");
+			$("#logo-type").removeClass("scrolled");
+		}
+	});
+
 	$("a[href^='#']").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
@@ -23,7 +34,7 @@ $(document).ready(function () {
 		});
 	});
 
-	$('.carousel').carousel(
+	$('.carousel').carousel({
 		interval: 7000
 	});
 });
