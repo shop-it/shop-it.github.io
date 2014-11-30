@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 	$(document).on('scroll', function(){
 		console.log($(document).scrollTop())
-		if($(document).scrollTop()>=400){
+		if($(document).scrollTop()>450){
 			$("#logo").removeClass("large").addClass("small");
 			$("#logo-type").addClass("scrolled");
 		} else{

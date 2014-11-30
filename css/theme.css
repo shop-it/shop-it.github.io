@@ -58,9 +58,14 @@ a, a:hover, a:visited {
   height: 100%;
 }
 
+.carousel-inner img {
+  width: 100%;
+}
+
 /* Fade transition for carousel items */
 .carousel .item {
   left: 0 !important;
+  width: 100%;
   -webkit-transition: opacity 1s; /*adjust timing here */
   -moz-transition: opacity 1s;
   -o-transition: opacity 1s;
@@ -474,12 +479,6 @@ section h3 {
   height: 100%;
 }
 
-#background {
-  width: 100%;
-  z-index:1;
-  position: absolute;
-}
-
 #email-contact {
   margin-top: 10px;
 }
@@ -536,6 +535,7 @@ section h3 {
 @media (max-width: 768px) {
 
   #button-header {
+    position: absolute;
     margin: 5% 40%;
   }
 
@@ -552,7 +552,7 @@ section h3 {
   }
 
   .navbar-collapse {
-    background-color: rgba(0, 196, 187, 0.5);
+    background-color: transparent;
   }
   .navbar-collapse ul {
     width: 100%;
@@ -592,10 +592,6 @@ section h3 {
     margin-right: 0;
     color: rgba(255, 255, 255, 0.9);
   }
-}
-
-@media screen {
-
 }
 
 @media (max-width: 480px) {
