@@ -405,8 +405,10 @@ section h3 {
 }
 
 #logo {
-  height: 250px;
+  height: 150px;
   width: 500px;
+  left: 25%;
+  margin-top: 15%;
   z-index: 2;
   position: absolute;
   transition: all 2s;
