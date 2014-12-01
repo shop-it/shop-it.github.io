@@ -219,12 +219,12 @@ video#dreemovid {
 /* NAVBAR COLLAPSE ICON */
 .navbar-toggle {
   margin: 1em 0;
-  background-color: rgba(0, 196, 189, 0.9);
+  background-color: rgba(116, 35, 31, 1);
 }
 
 .navbar-toggle:hover {
   margin: 1em 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(116, 35, 31, 1);
 }
 
 .navbar-toggle .icon-bar {
@@ -483,6 +483,7 @@ section h3 {
   }
 
   .mobile1, .mobile2 {
+    margin-top: 20px;
     margin-left: -25px;
     width: auto;
     height: 350px;
@@ -508,8 +509,6 @@ section h3 {
 /* NAVBAR COLLAPSE */
 @media (max-width: 767px) {
   .mobile1, .mobile2, .mobile3 {
-    margin-top: -30px;
-    margin-bottom: 30px;
     margin-left: -25px;
     width: auto;
     height: 350px;
