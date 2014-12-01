@@ -30,7 +30,6 @@ a, a:hover, a:visited {
   color: rgb(0,196,189);
 }
 
-
 .textcontent {
   width: 100%;
 }
@@ -52,6 +51,20 @@ a, a:hover, a:visited {
 
 .carousel {
   height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.description {
+  height: 40px;
+}
+
+.logo-home {
+  max-height: 300px;
+  max-width: 300px;
+  margin-bottom: -5em;
 }
 
 #about {
@@ -112,6 +125,10 @@ a, a:hover, a:visited {
   font-size: 25px;
   color: white;
   margin-bottom:30px;
+}
+
+.video-description {
+  height: 175px;
 }
 
 input {
@@ -234,7 +251,7 @@ video#dreemovid {
 
 /* NAVBAR FONT SIZE AND COLOR*/
 .cbp-af-header .nav a {
-  color: transparent;
+  color: white;
   margin: 0 0 0 20px;
   font-size: 15px;
 }
@@ -247,7 +264,7 @@ video#dreemovid {
 /* NAVBAR TRANSITION ANIMATION */
 .cbp-af-header.cbp-af-header-shrink {
   height: 55px;
-  background-color: rgba(255,255,255,0.9);
+  background-color: white;
   border-bottom: 1px solid #eee;
   transition: all 180ms linear;
   -moz-transition: all 180ms linear; /* Firefox 4 */
@@ -369,15 +386,6 @@ section h3 {
   margin-bottom: 15px;
 }
 
-.description {
-  height: 40px;
-}
-
-
-.video-description {
-  height: 175px;
-}
-
 .navbar-brand {
   position: absolute;
   width: 100%;
@@ -439,12 +447,22 @@ section h3 {
   margin-top: -10px;
 }
 
-
-#email-contact {
-  margin-top: 10px;
+#background {
+  width: 100%;
+  z-index:1;
+  position: absolute;
 }
 
 #scroll {
+  z-index: 2;
+}
+
+#video-container {
+  height: 100%;
+  margin: 175px 300px;
+  padding: 0px;
+  position: relative;
+  width: 640px;
   z-index: 2;
 }
 
@@ -463,20 +481,17 @@ section h3 {
     padding: 0;
   }
 
-
-  .mobile1, .mobile2, .mobile3 {
+  .mobile1, .mobile2 {
     margin-left: -25px;
     width: auto;
     height: 350px;
   }
-
 
   .mobile3 {
     margin-left: -25px;
     margin-top: 20px;
     width: auto;
     height: 350px;
-
   }
 }
 
@@ -490,19 +505,13 @@ section h3 {
 }
 
 /* NAVBAR COLLAPSE */
-@media (max-width: 768px) {
-
-  #button-header {
-    position: absolute;
-    margin: 5% 40%;
-  }
-
+@media (max-width: 767px) {
   .mobile1, .mobile2, .mobile3 {
     margin-top: -30px;
+    margin-bottom: 30px;
     margin-left: -25px;
-    width:auto;
-    height:350px;
-
+    width: auto;
+    height: 350px;
   }
 
   #about p {
@@ -511,7 +520,7 @@ section h3 {
   }
 
   .navbar-collapse {
-    background-color: transparent;
+    background-color: rgba(0, 196, 187, 0.5);
   }
   .navbar-collapse ul {
     width: 100%;
