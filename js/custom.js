@@ -30,4 +30,12 @@ $(document).ready(function () {
 			window.location.hash = hash;
 		});
 	});
+
+	$("#beta-submit").click(function(event){
+		event.preventDefault();
+		$("#alert-box").removeClass("hidden");
+		setTimeout(function(){
+			$('#alert-box').addClass("hidden");
+		}, 2000);
+	});
 });
