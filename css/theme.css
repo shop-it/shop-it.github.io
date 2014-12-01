@@ -262,7 +262,7 @@ video#dreemovid {
 }
 
 .cbp-af-header .nav a:hover {
-  color: rgb(0, 196, 189);
+  color: rgb(116, 35, 31);
   background: none;
 }
 
@@ -294,7 +294,7 @@ video#dreemovid {
 .cbp-af-header.cbp-af-header-shrink h1:hover,
 .cbp-af-header.cbp-af-header-shrink .nav a:hover,
 .cbp-af-header.cbp-af-header-shrink .social-media a:hover {
-  color: rgb(0, 196, 189);
+  color: rgb(116, 35, 31);
 }
 
 .cbp-af-header.cbp-af-header-shrink h1 {
@@ -641,7 +641,7 @@ footer {
 }
 
 .social-media a:hover {
-  color: rgb(0,196,189);
+  color: rgb(116,35,31);
 }
 
 footer span1 {
