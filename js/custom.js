@@ -15,11 +15,9 @@ $(document).ready(function () {
 
 	$(document).on('scroll', function(){
 		if($(document).scrollTop()>450){
-			$("#logo").removeClass("large").addClass("small");
-			$("#logo-type").addClass("scrolled");
+			$("#logo-description").addClass("scrolled");
 		} else{
-			$("#logo").removeClass("small").addClass("large");
-			$("#logo-type").removeClass("scrolled");
+			$("#logo-description").removeClass("scrolled");
 		}
 	});
 
@@ -31,9 +29,5 @@ $(document).ready(function () {
 		}, 500, function(){
 			window.location.hash = hash;
 		});
-	});
-
-	$('.carousel').carousel({
-		interval: 7000
 	});
 });
